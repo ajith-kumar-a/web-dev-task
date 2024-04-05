@@ -1,0 +1,199 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin-top: 10px;
+    padding-top: 0px;
+}
+
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.team-setion{
+    margin-top: 75px;
+}
+.team-title h2{
+    font-size: 20px;
+    color: rgb(055, 255, 255);
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.team-title h2{
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 8px;
+    
+  }
+
+
+
+.title-para{
+    padding: 30px;
+    color: black;
+    font-size: 30px;
+}
+
+.team-cards{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.team-0{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.team-1{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+
+.team-2{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+
+.team-card{
+    background-color:  rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 0px 0px;
+    margin:  0px 20px;
+    padding: 20px;
+    text-align: center;
+    width: calc(50% - 20px);
+}
+
+.team-card:hover{
+    transform: translateY(-12px);
+}
+
+.team-image img{ 
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-detail h3{
+    color: black;
+    font-size: 18px;
+    margin: 15px 0px;
+}
+
+.team-detail p{
+    color: cornflowerblue;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .title-para{
+        font-size: 18px;
+    }
+    .team-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-0{
+        display: flex;
+        flex-direction: column;
+    }
+    .team-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .team-card{
+        width: 85%;
+    }
+    
+} 
+
+.card-design {
+	display: inline-block;
+  
+    width: auto;
+	height: 36.5px;
+	
+	/* background-color: #6ab070; */
+	-webkit-border-radius: 3px 4px 4px 3px;
+	-moz-border-radius: 3px 4px 4px 3px;
+	border-radius: 3px 4px 4px 3px;
+	
+}
+
+/* Makes the triangle */
+.card-design:before {
+	content: "";
+	position: absolute;
+	display: block;
+	left: 0px;
+	width: 0;
+	height: 0;
+	border-top: 19px solid blue;
+	border-bottom: 19px solid blue;
+	border-right: 19px solid transparent;
+    border-left: 19px solid blue;
+    border-left-width : 100px ;
+    border-top-width: 30px;
+    border-bottom-width: 30px;
+    
+}
+
+
+.card-design-right {
+	display: inline-block;
+  
+    width: auto;
+	height: 36.5px;
+	
+	/* background-color: #6ab070; */
+	-webkit-border-radius: 3px 4px 4px 3px;
+	-moz-border-radius: 3px 4px 4px 3px;
+	border-radius: 3px 4px 4px 3px;
+	
+}
+
+/* Makes the triangle */
+.card-design-right:before {
+	content: "";
+	position: absolute;
+	display: block;
+	right: 0px;
+	width: 0;
+	height: 0;
+	border-top: 19px solid blue;
+	border-bottom: 19px solid blue;
+	border-right: 19px solid blue;
+    border-left: 19px solid transparent;
+    border-right-width: 100px;
+    border-top-width: 28px;
+    border-bottom-width: 28px;
+    
+}
